@@ -50,7 +50,7 @@ resetButton.addEventListener("click", function () {
     squares[i].style.backgroundColor = colors[i];
   }
   //change back to initial color and text
-  h1.style.backgroundColor = "#232323";
+  h1.style.backgroundColor = "steelblue";
   if (resetButton.textContent == "Play Again?") {
     resetButton.textContent = "New Colors";
   }
